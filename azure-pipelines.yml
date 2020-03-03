@@ -14,9 +14,9 @@ jobs:
 
   steps:
 
-  - task: ServiceNow Job Notification@0
+  - task: ServiceNow Job Notification@1
     inputs:
-      connectedServiceName: 'devopsdev3_azure'
+      connectedServiceName: 'devopsdev3_Azure_new'
       Phase: 'STARTED'
   - task: UsePythonVersion@0
     inputs:
